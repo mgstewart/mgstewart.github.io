@@ -138,13 +138,40 @@
         <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="star-light mb-5">
         <div class="row">
-          <div class="col-lg-4 ml-auto">
+          <div class="col-lg-6 ml-auto">
             <p class="lead">I am a molecular biologist by training. I first got exposed to programming laboratory robots using proprietary languages. In Spring 2018 I took a plunge into a Data Sciences Bootcamp at Northwestern University.</p>
           </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">I feel very comfortable programming in Python and Javascript. I am actively working on side-hustles (see below!) and looking for job opportunities!</p>
+          <div class="col-lg-6 mr-auto">
+            <p class="lead">I feel very comfortable programming in Python and Javascript. I am actively working on side-hustles (see below!) and looking for job opportunities! Currently enrolled in the <a href="https://chipymentor.org/">ChiPy Mentorship program</a></p>  
           </div>
         </div>
+        <hr>
+        <h2 class="text-center text-uppercase text-white">Technical Proficiencies</h2>
+        <br>
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <ul class="text-center lead">
+              <h3>Languages</h3>
+              <li>Python</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 ml-auto">
+              <ul class="text-center lead">
+                <h3>Databases & BI</h3>
+                <li>MySQL, SQLite</li>
+                <li>MongoDB</li>
+                <li>Tableau</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 ml-auto">
+                <ul class="text-center lead">
+                  <h3>Data Science Tools</h3>
+                  <li>Pandas/NumPy</li>
+                  <li>SciKit Learn</li>
+                  <li>Keras</li>
+                </ul>
+              </div>
       </div>
     </section>
 
@@ -157,7 +184,7 @@
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate" action="./mail/contact_me.php">
+            <form method="post" name="sentMessage" id="contactForm" novalidate="novalidate" action="./js/contact_me.js">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
